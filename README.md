@@ -1,0 +1,2 @@
+# OSMViewerForFirefoxOS
+GPSやgeocodingを利用したOpenStreetMapビューワ
