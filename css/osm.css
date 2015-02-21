@@ -1,0 +1,41 @@
+div#OpenLayers_Control_Zoom_5 {
+ display:none;
+}
+
+div#rslt {
+  font-size: xx-small;
+  color: #666;
+  background: #ccc;
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+  transition: all 1s;
+  overflow-x: hidden;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  height:25px;
+}
+
+div#map {
+  top: 30px;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  position: fixed;
+}
+
+div.olControlAttribution {
+  bottom: 3px;
+}
+
+input#term {
+  width: 100px;
+}
+
+form#header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}

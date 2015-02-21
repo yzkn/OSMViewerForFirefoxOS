@@ -1,23 +1,26 @@
-OSMViewerForFirefoxOS
-====
+﻿# [OSM Viewer](https://marketplace.firefox.com/app/osm-viewer/)
 
-## Overview
----
+This is an OpenStreetMap Viewer app using GPS and Geocoding service.
 
-OpenStreetMap Viewer app using GPS and Geocoding service
+## Usage
 
-## Install
----
+Import the app into the [App Manager](https://developer.mozilla.org/Firefox_OS/Using_the_App_Manager).
+Then you can run it in the simulator, or in a Firefox OS device.
 
-Download the package from [Firefox Marketplace](https://marketplace.firefox.com/app/osm-viewer) or [github](https://github.com/YA-androidapp/OSMViewerForFirefoxOS/blob/master/osm-viewer-0.1.1.zip?raw=true)
+This application accesses [OpenStreetMap](http://www.openstreetmap.org/) and [Geocoding.jp](http://www.geocoding.jp/).
+
+## Libraries
+
+### [OpenStreetMap](http://www.openstreetmap.org/)
+
+* [OpenLayers](http://openlayers.org/)
+** [LICENSE](https://github.com/openlayers/ol3/blob/master/LICENSE.md)
 
 ## Licence
----
 
 [Apache License, 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Author
----
 
 [YA-androidapp](https://github.com/YA-androidapp)
 

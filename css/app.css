@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0.5rem;
+}
+
+body {
+  font-size: 1rem;
+  background: #fff;
+}
+
+form {
+  display: flex;
+}
+
+input, button, code, p {
+  font-size: inherit;
+}

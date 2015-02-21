@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>OSM Viewer</title>
+        <meta name="description" content="A privileged app stub">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/osm.css">
+
+        <script type="text/javascript" src="js/app.js" defer></script>
+
+        <link rel="prefetch" type="application/l10n" href="data/locales.ini" />
+        <script type="text/javascript" src="js/libs/l10n.js" defer></script>
+        <script src="js/lib/OpenLayers.js"></script>
+        <script src="js/osm.js"></script>
+        <script src="js/getLocation.js"></script>
+        <script src="js/geocode.js"></script>
+    </head>
+    <body>
+        <section>
+            <form id="header">
+                <input id="term" type="search" placeholder="Place Name" />
+                <button id="geoc" data-l10n-id="geocode">Geocode</button>
+                <button id="cpos" data-l10n-id="currentposition">Here</button>
+                <a href="./about.html">About</a>
+            </form>
+        </section>
+        <section>
+            <div id="map">
+        </section>
+        <section>
+            <div id="rslt"></div>
+        </section>
+    </body>
+</html>

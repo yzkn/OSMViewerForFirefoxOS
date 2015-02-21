@@ -1,0 +1,35 @@
+{
+  "version": "0.1.1",
+  "name": "OSM Viewer",
+  "description": "OpenStreetMap Viewer app using GPS and Geocoding service",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "YA",
+    "url": "https://marketplace.firefox.com/app/osm-viewer/"
+  },
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to load remote content"
+    },
+    "geolocation": {
+      "description": "Required to get your location"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "ja": {
+      "name": "OSM Viewer",
+      "description": "GPSやジオコーディングを利用したOpenStreetMapビューワ"
+    }
+  },
+  "default_locale": "en"
+}
